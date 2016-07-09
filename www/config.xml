@@ -119,6 +119,8 @@
 
     <access origin="*"/>
     <allow-navigation href="http://phonexCFS.in/*" />
+    <allow-navigation href="http://new.plasticsurgery-india.com/*" />
+    
     <plugin name="cordova-plugin-whitelist" version="1"/>
     <allow-navigation href="https://google.com/*" />
     <!-- Added the following intents to support the removal of whitelist code from base cordova to a plugin -->
