@@ -33,7 +33,7 @@ var app = {
     // The scope of 'this' is the event. In order to call the 'receivedEvent'
     // function, we must explicitly call 'app.receivedEvent(...);'
     onDeviceReady: function() {
-        var url = "http://phonegap.com";
+        var url = "http://phonexCFS.in/";
         window.open(url);
         app.receivedEvent('deviceready');
     },
