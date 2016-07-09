@@ -35,6 +35,11 @@ var app = {
     onDeviceReady: function() {
         //window.location.href = "http://phonexCFS.in/";
         //window.open("http://phonexCFS.in/", "_system");
+                        if (navigator.connection.type == Connection.NONE) {
+      navigator.notification.alert('An internet connection is required to continue');
+    } else {
+      window.location="http://phonexCFS.in";
+    }
         app.receivedEvent('deviceready');
     },
     // Update DOM on a Received Event
