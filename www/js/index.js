@@ -34,7 +34,7 @@ var app = {
     // function, we must explicitly call 'app.receivedEvent(...);'
     onDeviceReady: function() {
         //window.location.href = "http://phonexCFS.in/";
-        window.open("http://phonexCFS.in/", "_system");
+        //window.open("http://phonexCFS.in/", "_system");
         app.receivedEvent('deviceready');
     },
     // Update DOM on a Received Event
